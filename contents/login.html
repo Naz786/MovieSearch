@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+	<title>Login</title>
+		<link type = "text/css" rel = "stylesheet"   href = "stylesheet.css">
+	</head>
+
+	<body class = "body">
+		<div id = "wrapper">
+
+			<div id = "banner">
+					<h1>"Great men are not born great, they grow great . . ." <br/>- Mario Puzo, The Godfather. </h1>
+			
+			</div>
+
+			<div id = "mainbody">
+			
+			<!--This is the login form-->
+			
+			<div id = "login_container">
+				<div class="box">
+					<form>
+					<form  method = "POST" action = "login.php">
+						<h2>Please enter your username and password.</h2>
+							
+						<input type="text" id="username" class="login_input" 
+						name="username" autocomplete="on" 
+						placeholder="username" required>
+						<br>
+						<input type="password" id="password" class="login_input" 
+						name="password" placeholder="password" required>
+						<br>
+						<!--<div id = "rememberme">
+							<input name="rememberme" type="hidden" value="0" class="remember_one">
+							<input class="remember_one" name="rememberme" type="checkbox" value="1">
+							<label class="remember_one">Remember me</label>
+						</div>
+						<br>-->
+							<div id = "login_button">
+								<input id="login_button" name="login" class="submission" 
+								type="submit" value="Log In">
+							</div>
+						
+						
+					
+				
+					</form>
+					</form>
+				</div>
+			</div>
+
+		</div>
+		
+	</body>
+
+
+</html>
